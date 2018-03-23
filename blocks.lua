@@ -1,6 +1,6 @@
 {  
   {1, name="Interceptor Launchpad", features=LAUNCHER|AUTOFIRE, group=8, shape=RECT_LAUNCHER1,
-    health=38.000, durability=0.500, blurb="Release Interceptor drones that intercepts other drones and missiles",
+    health=38.000, durability=0.500, blurb="A standard-issue modular drone launchpad. This one automatically deploys interceptor drones equipped with a small laser, effective against missiles and other drones.",
     density=0.150, fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, name="Interception Drone", features=COMMAND|THRUSTER|GENERATOR|TURRET|LASER|TORQUER|FREERES|TELEPORTER|SHIELD|AUTOFIRE,
       group=8, shape=ISOTRI_72, lifetime=40.000, durability=0.500, density=0.150, turretSpeed=360.000, fillColor=0x205079, fillColor1=0x207089, lineColor=0x3390eb,
@@ -12,7 +12,7 @@
      replicateTime=20.000, launcherPower=75.000, launcherOutSpeed=50.000},
 
   {2, name="Flakfrag Launcher", features=LAUNCHER, group=8, shape=RECT_LAUNCHER1,
-    health=38.000, durability=1.800, blurb="Launch Flakfrag drones that unleash burst of explosives on every direction",
+    health=38.000, durability=1.800, blurb="A standard-issue modular drone launchpad. This one launches defensive Flakfrag drones that disperse charged particles in all directions to destroy incoming missiles.",
     density=0.150, fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, name="Flakfrag Drone", features=COMMAND|THRUSTER|GENERATOR|CANNON|TORQUER|FREERES|SHIELD|AUTOFIRE|TRACTOR,
       group=8, shape=COMMAND_MISSILE, scale=1, lifetime=40.000, tractorRange=1, capacity=1,
@@ -25,7 +25,7 @@
      replicateTime=17.500, launcherPower=125.000, launcherOutSpeed=50.000},
 
   {3, name="Operatives Dispatcher", features=LAUNCHER, group=8, shape=RECT_LAUNCHER1,
-    health=38.000, durability=0.500, blurb="Launch Special operatives drone equipped with advanced incendiary assault weapon",
+    health=38.000, durability=0.500, blurb="A standard-issue modular drone launchpad. This one fields advanced operative drones armed with an incendiary repeater.",
     density=0.150, fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, name="SpecOp Drone", features=COMMAND|THRUSTER|GENERATOR|TURRET|CANNON|TORQUER|FREERES|TELEPORTER|SHIELD,
       group=8, shape=ISOTRI_25_MISSILE, lifetime=30.000, durability=0.250,
@@ -50,7 +50,7 @@
      replicateTime=12.000, launcherPower=170.000, launcherOutSpeed=50.000},
 
   {5, name="LMG Turret", features=TURRET|CANNON|AUTOFIRE, group=8, shape=RIGHT_TRI,
-    health=25.000, durability=0.500, blurb="Multipurpose assault point defence",
+    health=25.000, durability=0.500, blurb="A small and responsive turret equipped with a light machine gun. The weapon's high muzzle velocity and range gives it impressive efficiency as point defense.",
     density=0.300, fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=18.600, cannon={roundsPerSec=4.250,
       roundsPerBurst=4, muzzleVel=2800.000, burstyness=0.650, spread=0.010, power=8.000, damage=15.000,
       color=47081, range=1300.000}},
@@ -147,7 +147,7 @@
     launcherPower=1.000, launcherSpeed=1000.000},
 
   {18, name="Rapier Anti-Armor Launcher", features=LAUNCHER, group=8, shape=RECT_LAUNCHER1,
-    health=20.000, durability=0.500, blurb="Launches high damaging fast antenna guided missiles", density=0.150,
+    health=20.000, durability=0.500, blurb="A fixed missile launcher loaded with Rapier armor-piercing missiles, each tipped with a sharp penetrator that evokes its namesake weapon.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, name="AP Missile" features=COMMAND|THRUSTER|TORQUER|EXPLODE|GENERATOR|LASER|TURRET, group=8, shape=MISSILE,
       lifetime=5.000, durability=0.200, density=0.150, fillColor=0x205079,
@@ -158,7 +158,7 @@
     launcherOutSpeed=50.000},
 
   {19, name="HE Missile Launcher", features=LAUNCHER, group=8, shape=RECT_LAUNCHER1,
-    health=20.000, durability=0.500, blurb="Launches large area of effect heavy missiles", density=0.150,
+    health=20.000, durability=0.500, blurb="A fixed missile launcher carrying high explosive warheads. Although slower than standard missiles, the larger payload grants them a wider blast radius.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, name="AC Missile" features=COMMAND|THRUSTER|TORQUER|EXPLODE, group=8, shape=MISSILE_SHORT,
       lifetime=7.500, durability=3.400, density=0.125, fillColor=0x205079, 
@@ -234,7 +234,7 @@
       width=1.000, damage=100.000, color=0x7fcf1090, range=1100.000}, growRate=20.000},
 
   {30, name="Fragmentation Pod", features=LAUNCHER|AUTOFIRE, group=8, shape=SQUARE_LAUNCHER,
-    health=38.000, durability=2.500, blurb="Reproduces missile-destroyer to intercepts incoming projectiles, release fragmentations along the way",
+    health=38.000, durability=2.500, blurb="A quick-reaction missile launcher armed with fragmentation missiles. The proximity shaped charge releases a cone-shaped spray of shrapnel which shreds incoming missiles.",
     density=0.150, fillColor=0xaaaaaa, fillColor1=0x777777, lineColor=0x3390eb, growRate=2.500, replicateBlock=
     {80006, command={}, name="Fragmentation Missile", features=COMMAND|THRUSTER|TORQUER|FREERES|EXPLODE|CANNON|AUTOFIRE|GENERATOR,
       group=8, shape=RECT, scale=1, lifetime=10.000, health=125.000, cannon={roundsPerSec=8.000,
@@ -245,12 +245,12 @@
      replicateTime=0.250, launcherPower=150.000, launcherOutSpeed=500.000, launcherAngVel=24.000},
 
   {31, name="[L]Reactive Laser", features=LASER|TURRET|AUTOFIRE, group=8,
-    health=25.000, durability=1.000, blurb="Light standard short range reactive defense laser that counter fast missiles threats", density=0.150,
+    health=25.000, durability=1.000, blurb="A laser cannon used as the second line of defense against missiles. This lightweight variant is highly responsive but lacks stopping power.", density=0.150,
     fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=30.000, laser={power=3.000, width=1.000, damage=50.000,
       color=0x7f00b7e9, range=450.000}},
 
   {32, name="Gauss Cannon", features=TURRET|CANNON|CHARGING|AUTOFIRE, group=8,
-    health=25.000, durability=1.000, blurb="Long range point defence Gauss Cannons",
+    health=25.000, durability=1.000, blurb="A weapon that uses electromagnetic coils to launch projectiles. This weapon excels at point defense thanks to its incredible muzzle velocity.",
     density=0.300, fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=1.750, cannon={roundsPerSec=2.250,
       roundsPerBurst=1, muzzleVel=3200.000, power=15.000, damage=85.000,
       color=47081, range=1950.000}, chargeMin=0.500, chargeMaxTime=2.000},
@@ -435,26 +435,26 @@
       muzzleVel=2125.000, power=26.500, damage=125.000, color=0xff2100,
       range=1850.000}, chargeMin=0.500, chargeMaxTime=1.250},
 
-  {64, name="Dual Plasma", features=TURRET|CANNON, group=8, shape=OCTAGON,
-    durability=0.500, blurb="Advanced turreted damage dealer", density=0.150, fillColor=0x113077,
+  {64, name="Dual Plasma Cannon", features=TURRET|CANNON, group=8, shape=OCTAGON,
+    durability=0.500, blurb="A double-barreled variant of the standard-issue Plasma Cannon.", density=0.150, fillColor=0x113077,
     fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=8.000, roundsPerBurst=2,
       muzzleVel=1400.000, spread=0.020, burstyness=1.000, power=7.340, damage=20.000, color=47081,
       range=1100.000}},
 
-  {65, name="Dual Plasma", features=TURRET|CANNON, group=8, shape=OCTAGON, scale=2,
-    durability=0.500, blurb="Advanced turreted damage dealer", density=0.150,
+  {65, name="Dual Plasma Cannon", features=TURRET|CANNON, group=8, shape=OCTAGON, scale=2,
+    durability=0.500, blurb="A double-barreled variant of the standard-issue Plasma Cannon.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=8.000,
       roundsPerBurst=2, muzzleVel=1400.000, spread=0.020, burstyness=1.000, power=19.340, damage=80.000,
       color=47081, range=1200.000}},
 
-  {66, name="Dual Plasma", features=TURRET|CANNON, group=8, shape=OCTAGON, scale=3,
-    durability=0.500, blurb="Advanced turreted damage dealer", density=0.150,
+  {66, name="Dual Plasma Cannon", features=TURRET|CANNON, group=8, shape=OCTAGON, scale=3,
+    durability=0.500, blurb="A double-barreled variant of the standard-issue Plasma Cannon.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=8.000,
       roundsPerBurst=2, muzzleVel=1400.000, spread=0.020, power=40.000, damage=180.000,
       burstyness=1.000, color=47081, range=1300.000}},
 
   {67, name="Sonic Missiles", features=LAUNCHER, group=8, blockshape=SQUARE_LAUNCHER,
-    health=38.000, durability=2.500, blurb="Light missiles designed to combat against fast opponents",
+    health=38.000, durability=2.500, blurb="A quick-reaction missile launcher, armed with high-velocity anti-fighter missiles.",
     density=0.150, fillColor=0xaaaaaa, fillColor1=0x777777, lineColor=0x3390eb, growRate=2.500, replicateBlock=
     {80006, command={}, name="Dart", features=COMMAND|THRUSTER|TORQUER|FREERES|EXPLODE,
       group=8, blockshape=ISOTRI_25_MISSILE, lifetime=4.000, health=25.000,
@@ -510,7 +510,7 @@
       muzzleVel=2800.000, power=116.209, damage=180.000, color=47081, range=2200.000}},
 
   {81, name="Mjolnir Cannon", features=TURRET|CANNON, group=8, scale=5,
-    durability=1.500, blurb="Heavy Artillery Battery Cannon", density=0.500, turretSpeed=0.800,
+    durability=1.500, blurb="The heaviest artillery piece available to Terrans, used to destroy enemy ships before they can fire a single shot. ~Strike hard, strike once.~", density=0.500, turretSpeed=0.800,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=0.200,
       roundsPerBurst=3, burstyness=0.950, muzzleVel=2100.000, spread=0.050, power=325.000, damage=200.000,
       color=47081, range=8000.000, explosive=PROXIMITY, explodeRadius=125.000}},
@@ -523,7 +523,7 @@
     fillColor1=0x207089, lineColor=0xaab0c0},
 
   {84, name="[S]Suppression Laser", features=TURRET|LASER|AUTOFIRE, group=8, blockshape=RIGHT_TRI,
-    durability=0.500, blurb="Standard issue state of the art secondary line of alpha lasers defenses",
+    durability=0.500, blurb="A standard-issue point defense laser. Acts as a ship's final line of defense against incoming missiles due to its short range.",
     density=0.150, fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=25.000, 
     laser={power=7.250, width=1.220, damage=125.000, color=0x7f54ff9f, range=275.000}},
 
