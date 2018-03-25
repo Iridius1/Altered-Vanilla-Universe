@@ -1075,7 +1075,7 @@
     powerCapacity=150, capacity=200, generatorCapacityPerSec=50},
 
   {195, shape=206, name="Soaring Missile", features=LAUNCHER, group=8,
-    durability=0.500, blurb="Launches improved version of both the ordinary missiles and includes a slight of speed advantage of the Sonic Missiles", density=0.150,
+    durability=0.500, blurb="A fixed missile launcher equipped with improved utility missiles. Although they can only load a single missile at a time, the performance of each missile more than makes up for the disadvantage.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {command={}, shape=MISSILE, features=COMMAND|THRUSTER|TORQUER|EXPLODE, group=8,
       lifetime=3.700, durability=0.500, density=0.150, fillColor=0x205079,
@@ -1150,7 +1150,7 @@
       range=1025.000}},
   
   {17008, name="Phasm Photon", features=TURRET|LASER|AUTOFIRE, group=8, durability=0.500,
-    blurb="Defensive Photon Phasm designed to counter against heavy projectiles, at the same time applies a light immobilization force on them",
+    blurb="An experimental weapon, the Phasm Photon is equipped with a magnetic field projector, allowing the beam to both cause damage to ships and disrupt their movement.",
     density=0.150, fillColor=0x414077, fillColor1=0x98f5ff, lineColor=0x3390eb, turretSpeed=7.550, laser={pulsesPerSec=0.075,
       pulseAvailability=0.900, decay=2.500, power=19.175, width=1.800, damage=82.875, color=0x7ffffafa,
       range=800.000, immobilizeForce=25000, linearForce=12500}},
@@ -1356,17 +1356,17 @@
       replicateTime=2.5, launcherPower=500, launcherAngVel=25},
 
   {17058, shape=226, name="Rail Repeater", features=TURRET|CANNON, group=8,
-    durability=0.5, blurb="A repeater version of the general usage railgun", density=0.15,
+    durability=0.5, blurb="A variant of the general-purpose Railgun. Thanks to it's improved magnetic accelerator rails, this weapon is capable of firing a burst of 3 lower-powered, but faster-travelling slugs.", density=0.15,
     fillColor=0x191955, fillColor1=0x111122, lineColor=0x3390eb, turretSpeed=2, cannon={roundsPerSec=1.5,
       burstyness=0.744, roundsPerBurst=3, muzzleVel=1600, power=113, damage=175, color=47081, range=2400}},
 
-  {17059, name="Flak Spitter", features=TURRET|CANNON|AUTOFIRE, group=8, shape=OCTAGON, durability=0.5,
-    blurb="A shortest ranged burst firing version of the Flak Cannon", density=0.15, fillColor=0x414077, fillColor1=0x417078,
+  {17059, name="Flak Splitter", features=TURRET|CANNON|AUTOFIRE, group=8, shape=OCTAGON, durability=0.5,
+    blurb="A modified Flak Cannon. The lower charge used hampers range, but allows three shots to be fired in rapid succession.", density=0.15, fillColor=0x414077, fillColor1=0x417078,
     lineColor=0x3390eb, turretSpeed=12, cannon={roundsPerSec=7.25, explosive=PROXIMITY, roundsPerBurst=3, spread=0.255,
       burstyness=0.622, muzzleVel=1200, power=10, damage=20, color=47081, range=500, explodeRadius=20}},
 
   {17060, shape=RECT_LAUNCHER1, scale=2, name="Heavy Torpedo", features=LAUNCHER,
-    group=8, durability=0.5, blurb="Launches heavier version unguided torpedoes",
+    group=8, durability=0.5, blurb="A Hercules-class launcher for large warheads. This one is loaded with immensely powerful, but slower torpedoes.",
     density=0.15, fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, replicateBlock=
     {shape=MISSILE, scale=3, features=THRUSTER|EXPLODE, group=8, lifetime=10,
       durability=0.5, density=0.15, fillColor=0x113077, fillColor1=0x1f56a5, lineColor=0x3390eb,
@@ -1374,13 +1374,13 @@
       explodeDamage=500, explodeRadius=75}, replicateTime=3.25, launcherPower=35, launcherSpeed=150},
 
   {17061, scale=2, name="Zephyr Howitzer", features=TURRET|CANNON, group=8, 
-    durability=0.5, blurb="An attilery cannon used to bombard enemy hulls from afar", density=0.15,
+    durability=0.5, blurb="A heavy artillery piece with long range. Its shots are slow, but cause severe damage to enemy ships.", density=0.15,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=0.4,
       explosive=FINAL, muzzleVel=1200, power=82, damage=50, color=47081, range=2800,
       explodeRadius=50}},
 
   {17062, scale=3, name="Zephyr Howitzer", features=TURRET|CANNON, group=8, 
-    durability=0.5, blurb="An attilery cannon used to bombard enemy hulls from afar", density=0.15,
+    durability=0.5, blurb="A heavy artillery piece with long range. Its shots are slow, but cause severe damage to enemy ships.", density=0.15,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=0.3,
       explosive=FINAL, muzzleVel=1200, power=122, damage=60, color=47081, range=3000,
       explodeRadius=75}},
@@ -1395,7 +1395,7 @@
     fillColor1=0x378b2f, lineColor=0xf4f0c4, turretSpeed=10.550, cannon={roundsPerSec=13.33, roundsPerBurst=24,
       muzzleVel=1750, power=10, damage=20, color=0x97ee2f, burstyness=0.822, range=1855}},
 
-  {17065, name="Pulverator", features=TURRET|CANNON, group=15, scale=3,
+  {17065, name="Pulverizer", features=TURRET|CANNON, group=15, scale=3,
     durability=1.5, blurb="A burst firing Large Auto-vulcan Cannon", density=0.15, fillColor=0x96bc2a,
     fillColor1=0x378b2f, lineColor=0xf4f0c4, turretSpeed=5.550, cannon={roundsPerSec=48.33, roundsPerBurst=72,
       muzzleVel=2050, power=25, damage=40, color=0x97ee2f, burstyness=0.622, spread=0.120, range=2255}},
@@ -1415,17 +1415,17 @@
       replicateTime=4.45, launcherPower=150},
 
   {17068, name="[R]Reactive Laser", features=LASER|TURRET|AUTOFIRE, group=8,
-    health=25.000, durability=1.000, blurb="An advanced variant of the Reactive Laser with most of it improvement focused in range", density=0.150,
+    health=25.000, durability=1.000, blurb="A lightweight anti-missile laser cannon. This long-range variant offers a preemptive defense but takes longer to lock on.", density=0.150,
     fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=10.000, laser={power=4.980, width=2.000, damage=75.000,
       color=0x7f00b7e9, range=650.000}},
 
   {17069, name="[H]Reactive Laser", features=LASER|TURRET|AUTOFIRE, group=8,
-    health=25.000, durability=1.000, blurb="A heavy variant of the Reactive Laser which increases most of it's damage", density=0.150,
+    health=25.000, durability=1.000, blurb="An anti-missile laser cannon. This heavy variant will strike much harder, but the bulky barrel hinders its speed.", density=0.150,
     fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=5.000, laser={power=12.000, width=3.000, damage=200.000,
       color=0x7f00b7e9, range=475.000}},
 
   {17070, name="[M]Reactive Laser", features=LASER|TURRET|AUTOFIRE, group=8,
-    health=25.000, durability=1.000, blurb="A medium class variant of the Reactive Laser which increases twice of it's damage", density=0.150,
+    health=25.000, durability=1.000, blurb="A lightweight anti-missile laser cannon. This balanced variant has no specialties but has reliable performance in all areas.", density=0.150,
     fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=15.000, laser={power=6.000, width=2.000, damage=100.000,
       color=0x7f00b7e9, range=467.500}},
 
@@ -1447,7 +1447,7 @@
       explodeDamage=1.000, explodeRadius=1.000}, replicateTime=3.150, launcherPower=10.000},
 
   {17073, name="[A]Suppression Laser", features=TURRET|LASER|AUTOFIRE, group=8, blockshape=RIGHT_TRI,
-    durability=0.500, blurb="Advanced variant of secondary line of alpha lasers defenses",
+    durability=0.500, blurb="An advanced point-defense laser, with remarkable improvements over the standard version thanks to innovations in power circuits and collimator arrays.",
     density=0.150, fillColor=0x414077, fillColor1=0x417078, lineColor=0x3390eb, turretSpeed=12.500, 
     laser={power=14.500, width=2.440, damage=250.000, color=0x7f54ff9f, range=325.000}},
 
