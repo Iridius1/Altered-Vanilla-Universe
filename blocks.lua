@@ -505,7 +505,7 @@
       power=25.000, damage=10.000, color=0xee5245, range=955.000, explosive=FINAL, explodeRadius=11.000}, generatorCapacityPerSec=10.000, powerCapacity=100.000},
 
   {80, name="Plasma Rail", features=CANNON, group=8, shape=CANNON2, scale=2,
-    durability=0.500, blurb="High velocity long-ranged plasma kinetic weapon.", density=0.150,
+    durability=0.500, blurb="A spinal-mounted kinetic plasma cannon with considerable reach and muzzle velocity.", density=0.150,
     fillColor=0x113077, fillColor1=0x205079, lineColor=0x3390eb, cannon={roundsPerSec=1.200,
       muzzleVel=2800.000, power=116.209, damage=180.000, color=47081, range=2200.000}},
 
@@ -872,7 +872,7 @@
       range=325.000} generatorCapacityPerSec=256.000}, replicateTime=2.500, launcherPower=120.000},
   
   {155, name="Portable Shield", features=SHIELD, group=8, durability=0.250,
-    blurb="Absorbs damage - portable with a little more resistance & regeneration", density=0.150, fillColor=0x113077,
+    blurb="An advanced miniature shield generator. The more compact emitter is limited in coverage but compensates with higher particle density and quicker field re-establishment.", density=0.150, fillColor=0x113077,
     fillColor1=0x476676, lineColor=0x3390eb, shield={strength=800.000, regen=300.000, armor=10,
       delay=7.000, radius=40.000, color=0x190e1418, lineColor=0xc1c292f, damagedColor=0x33324753},
      growRate=1.300},
@@ -900,7 +900,7 @@
      replicateTime=25.500, launcherPower=50.000, launcherOutSpeed=500.000},
   
   {160, shape=RECT_CANNON, name="Light Gun", features=CANNON, group=8,
-    durability=0.550, blurb="Light assault Plasma weapon", density=0.075, fillColor=0x414077, fillColor1=0x417078,
+    durability=0.550, blurb="A light and compact plasma assault cannon intended for small fighters.", density=0.075, fillColor=0x414077, fillColor1=0x417078,
     lineColor=0x3390eb, growRate=20.000, cannon={roundsPerSec=9.500, muzzleVel=2400.000,
       roundsPerBurst=3, burstyness=0.825, power=5.000, damage=10.000, color=47081, range=1100.000}},
 
@@ -978,10 +978,10 @@
   
   {179, name="Regenerator", features=GENERATOR, group=8, shape=RECT_ROOT,
     durability=1.0, density=0.30, fillColor=0x4876ff, fillColor1=0x009acd, lineColor=0x36648b,
-    powerCapacity=1, capacity=1, generatorCapacityPerSec=100, blurb="Non-storage capacity energy conductors"},
+    powerCapacity=1, capacity=1, generatorCapacityPerSec=100, blurb="A generator with no capacitor, designed solely for maximum space efficiency."},
 
   {180, scale=2, shape=CANNON2, name="Chrono Revitalizer", features=LASER|CHARGING, group=8,
-    durability=2, blurb="Long range Charge-Healing Laser", density=0.15, fillColor=0x87ceff,
+    durability=2, blurb="A special device that requires time to charge it's capacitors, but unleashes a spacetime-distorting beam that will rewind any damage suffered by objects it hits.", density=0.15, fillColor=0x87ceff,
     fillColor1=0x1e90ff, lineColor=0x00b2ee, laser={power=80, width=6, damage=-500, decay=1.20,
       color=0x7f7fffd4, range=1900, pulseAvailability=6.200}, 
     chargeMin=0.2, chargeMaxTime=2.000},
